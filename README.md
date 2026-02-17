@@ -9,4 +9,4 @@ Guessing word in keyboard with 8 attempts.If fails it will show gameover message
 |![Initial Game](./IMG/Initial.png)|![Running Game](./IMG/Running.png)|![Winning Game](./IMG/Win.png)|
 
 ## Technology Stack
-- ![All](https://skillicons.dev/icons?i=html,css,javascript,react,bun,vite)
+![All](https://skillicons.dev/icons?i=html,css,javascript,react,bun,vite)
