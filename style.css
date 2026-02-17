@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+#root{
+  background: #282726;
+  display: flex;
+  justify-content: center;
+  /*border: 2px solid green;*/
+}
+.game_surface{
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  color: #F9F4DA;
+  width: 450px;
+}
+.game_top h1{
+  padding-bottom: 25px;
+}
+.game_top {
+  line-height: 20px;
+}
+.language_varient{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+.language_varient span{
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+.btn_ele{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.btn_ele button{
+  background: #FCBA29;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn_ele button:active{
+  scale: .9888;
+}
+.word_collection{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.word_collection span{
+  background: #323232;
+  padding: 23px 25px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+.btn_ele .correct{
+  background: #10A95B;
+}
+.btn_ele .incorrect{
+  background: #EC5D49;
+}
+.notice{
+  background: #7A5EA7;
+  padding: 25px;
+}
+.disqualified{
+  text-decoration: line-through;
+}
+.replay{
+  background: #11B5E5;
+  border: none;
+  padding: 15px 20px;
+  width: 60%;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.replay:active{
+  scale: .98888;
+}
+.word_collection .markWord {
+  color: red;
+  font-weight: bolder;
+}
